@@ -12,6 +12,8 @@
 # to capture statistics from in the logs.  Once the user supplies input, it will
 # run a 1000 count, 1500 byte ping with beginning with data pattern 0x0000.
 #
+# Built 02 NOV 2014
+# Forrest L. Taylor
 
 import os
 import datetime
@@ -229,7 +231,7 @@ def append():
     crt.Session.Log(False)
     textToAdd = ('\n/********************************************/ \n/* ' + now + ': \n/* Target:  '
     + IPTARGET + '\n/* Current Pattern:  ' + curpattern
-    + '\n/********************************************/ \n')
+    + '\n/*******************************************π/ \n')
 
     WriteToFile(crt.Session.LogFileName, textToAdd)
 

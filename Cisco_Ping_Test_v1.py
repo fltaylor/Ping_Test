@@ -12,6 +12,8 @@
 # to send pings from.  Once the user supplies input, it will run a 1000 count, 
 # 1500 byte ping with beginning with data pattern 0x0000.
 #
+# Built 14 OCT 2014
+# Forrest L. Taylor
 
 
 # Define patterns to test with.
@@ -64,7 +66,7 @@ def main():
     crt.Screen.Synchronous = False
 
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~π
 
 def pingtest():
     """Verifies IP target is responding and runs patterns against the target"""
