@@ -185,7 +185,7 @@ def logging(target):
 def cursorpause():
     '''Waits for cursor to pause before continuing.'''
     while True:
-        cursor = crt.Screen.WaitForCursor(1)
+        cursor = crt.Screen.WaitForCursor(2)
         if cursor == False:
             break
     # Once the cursor has stopped moving for about a second, we'll
