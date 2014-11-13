@@ -231,7 +231,7 @@ def append():
     crt.Session.Log(False)
     textToAdd = ('\n/********************************************/ \n/* ' + now + ': \n/* Target:  '
     + IPTARGET + '\n/* Current Pattern:  ' + curpattern
-    + '\n/*******************************************π/ \n')
+    + '\n/*******************************************/ \n')
 
     WriteToFile(crt.Session.LogFileName, textToAdd)
 
